@@ -69,3 +69,4 @@ def test_apply_label():
     """
     assert apply_label([0]) == "<=50K", "Label for 0 should be <=50K"
     assert apply_label([1]) == ">50K", "Label for 1 should be >50K"
+#
